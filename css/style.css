@@ -1,0 +1,58 @@
+body {
+    background-color: antiquewhite;
+}
+.bg1 {
+    background-image: url(../images/11.JPG);
+}
+.bg2 {
+    background-image: url(../images/eye.jpg);
+}
+.bg3 {
+    background-image: url(../images/mito.JPG);
+}
+.bg4 {
+    background-image: url(../images/welcometotheshow.JPG);
+}
+.color1 {
+    background-color: rgb(151, 157, 163);
+}
+.color2 {
+    background-color: rgb(104, 116, 127);
+}
+.color3 {
+    background-color: rgb(170, 185, 202);
+}
+
+.color4 {
+    background-color: rgb(129, 135, 142);
+}
+html, body{
+    height: 100%;
+}
+.fixed_bg, .infos {
+    height: 100%;
+    position: relative;
+}
+.fixed_bg {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fixed_text{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: rgb(211, 211, 211);
+    transform: translateX(-50%)translateY(-50%);
+}
+.aos_box{
+    width: 500px;
+    height: 300px;
+    background-color: brown;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    margin: 200px;
+    line-height: 300px;
+}
